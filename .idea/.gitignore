@@ -1,4 +1,4 @@
 # Default ignored files
 /shelf/
 /workspace.xml
-src/main/java/com/dealership/db/JDBCConnection.java
+/src/main/java/com/dealership/db/JDBCConnection.java
