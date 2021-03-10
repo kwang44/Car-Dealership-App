@@ -14,9 +14,9 @@ public class JDBCConnection {
     }
 
     public Connection getConnnection() throws SQLException {
-        String url = "jdbc:postgresql://database-1.cyftucwz0ops.us-east-1.rds.amazonaws.com/enterprise?currentSchema=car_dealership";
-        String username = "kevin";
-        String password = "123456";
+        String url = "";
+        String username = "";
+        String password = "";
 
         Connection conn = DriverManager.getConnection(url, username, password);
         conn.setSchema("car_dealership");
